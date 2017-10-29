@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ChatClassroom.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="connectionstring" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Server=localhost;Database=classroom;Uid=root;Pwd=;</Value>
+    </Setting>
+    <Setting Name="key" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">$13$K9s8sl3-J81s</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
