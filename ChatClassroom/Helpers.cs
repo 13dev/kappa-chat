@@ -96,16 +96,16 @@ namespace ChatClassroom
 				return false;
 			}
 
-			if (str.Length > 10)
+			if (str.Length > 19)
 			{
-				Helpers.Notification(Configuration.NOTIFICATION_TITLE, "Enter a Username with a maximum of 10 characters", Properties.Resources.error);
+				Helpers.Notification(Configuration.NOTIFICATION_TITLE, "Enter a Username with a maximum of 20 characters", Properties.Resources.error);
 				return false;
 			}
 
-			if (str.Length < 3)
+			if (str.Length < 6)
 			{
 
-				Helpers.Notification(Configuration.NOTIFICATION_TITLE, "Enter a username with a minimum of 3 characters", Properties.Resources.error);
+				Helpers.Notification(Configuration.NOTIFICATION_TITLE, "Enter a username with a minimum of 5 characters", Properties.Resources.error);
 				return false;
 			}
 
